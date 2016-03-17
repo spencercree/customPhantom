@@ -34,11 +34,11 @@
   }
 }
 */
-[class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "phantom";
+[class^="fa-"]:before, [class*=" fa-"]:before {
+  /*font-family: "phantom";
   font-style: normal;
   font-weight: normal;
-  speak: none;
+  speak: none;*/
   display: inline-block;
   text-decoration: none;
   width: 1em;
@@ -355,13 +355,13 @@ a:hover {
 
 .sidebar {
   position: fixed;
-  width: 250px;
+  width: 300px;
   /*height: 100%;*/
   padding: 50px 20px 20px 20px;
   text-align: center;
   color: #fff;
   font-size: 15px;
-  background: #303538 no-repeat center center;
+  background: #E77A27 no-repeat center center;
   background-size: cover;
   background-position: 20%;
   -webkit-transform: translateZ(0);
@@ -383,11 +383,11 @@ a:hover {
   color: white;
 }
 .sidebar a:hover {
-  color: #E77A27;
+  color: #4a4a4a;
 }
 .sidebar .logo {
   display: block;
-  width: 100%;
+  width: 90%;
   max-width: 250px;
   height: auto;
   background-size: contain;
@@ -411,12 +411,12 @@ a:hover {
 .sidebar .social-icons {
   margin-top: 10px;
 }
-.sidebar .icon {
+.sidebar .fa {
   font-size: 18px;
 }
 
 .content {
-  margin-left: 250px;
+  margin-left: 300px;
   padding: 50px;
   max-width: 800px;
 }
@@ -452,7 +452,7 @@ a:hover {
 }
 .content .post .post-meta a {
   color: #9EABB3;
-  text-decoration: none;
+/*  text-decoration: none;*/
 }
 .content .post .post-meta a:hover {
   text-decoration: underline;
@@ -461,6 +461,21 @@ a:hover {
 .separator {
   display: block;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+#twitter-bar {
+  color: #4099FF;
+  text-decoration: none;
+  background-color: #F2F1EF;
+  border-radius: 25px;
+  padding: 5px 10px;
+}
+
+[class^="fa-twitter"]:before, [class*=" fa-twitter"]:before {
+ margin: 0;
+ line-height: 1;
+ vertical-align: middle;
+ margin-right: -2px;
 }
 
 @media all and (max-width: 800px) {
