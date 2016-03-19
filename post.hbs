@@ -17,6 +17,11 @@
 	<section class="post-content">
 		{{content}}
 		<span class="post-meta"><time datetime="{{date format="YYYY-MM-DD"}}">{{date format='DD MMM YYYY'}}</time> {{#if tags}}on {{tags separator=", "}}{{/if}}</span>
+		<br>
+		<a id="twitter-bar" href="https://twitter.com/intent/tweet?text=%22{{encode title}}%22%20by%3A%20@spencemcc&amp;url={{url absolute="true"}}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <i class="fa fa-twitter"></i>
+      <span>Tweet</span>
+    </a>
 	</section>
 
 {{/post}}
