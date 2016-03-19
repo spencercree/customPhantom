@@ -1,0 +1,17 @@
+{{!< default}}
+
+<h1 class="page-header">Essays</h1>
+
+<article class="{{post_class}}">
+  <table>
+      <tbody>
+          {{#get "posts" limit="all" include="author,tags" filter="tags:essay"}}
+              {{#foreach posts}}
+                  <tr>
+                      <td class="title-column"><a href="{{url}}">{{title}}</a></td>
+                  </tr>
+              {{/foreach}}
+          {{/get}}
+      </tbody>
+  </table>
+</article>

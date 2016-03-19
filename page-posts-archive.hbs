@@ -1,0 +1,13 @@
+{{!< default}}
+
+<h1 class="page-header">Archive</h1>
+
+<div class="tag-cloud">
+  {{#get "tags" limit="all" include="count.posts" order="count.posts desc"}}
+    <ul>
+      {{#foreach tags}}
+        <li><a href="/tag/{{slug}}">{{name}}<span>{{count.posts}}</span></a></li>
+      {{/foreach}}
+    </ul>
+  {{/get}}
+</div>
