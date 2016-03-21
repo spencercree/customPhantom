@@ -584,6 +584,13 @@ body.page-long-form .content .post, body.page-posts-archive .content .post {
     height: 100%;
 }
 
+
+img {
+  width: 75%;
+  display: block;
+  margin: 0 auto;
+}
+
 @media all and (max-width: 800px) {
   .sidebar {
     position: relative;
