@@ -591,6 +591,17 @@ img {
   margin: 0 auto;
 }
 
+#homeButton {
+  background-color: #BF55EC;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+#homeButton i {
+  margin-right: 5px;
+}
+
 @media all and (max-width: 800px) {
   .sidebar {
     position: relative;
