@@ -1,0 +1,14 @@
+.resume-container {
+  text-align: center;
+}
+
+.resume-page-title {
+  margin: 0;
+}
+
+.download-btn {
+  text-decoration: none;
+  background-color: #BF55EC;
+  color: #fff;
+  padding: 15px 30px;
+}
