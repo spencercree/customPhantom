@@ -1,0 +1,101 @@
+a {
+  text-decoration: underline;
+}
+
+#nowBar {
+  width: 100%;
+  margin: 0;
+  padding: 5px;
+  color: #fff;
+  background-color: #BA68C8;
+  z-index: 3;
+  position: absolute;
+  text-align: center;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+#nowBar:hover {
+  color: #FFCC80 !important;
+}
+
+.navbar {
+  margin-bottom: 0;
+  min-height: 0;
+  background-color: #4DB6AC;
+  border: none;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-nav > li > a:hover {
+  color: #004D40;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #004D40;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #004D40;
+  border-color: #004D40;
+}
+
+.navbar-default .navbar-collapse {
+  border-color: #004D40;
+}
+
+.navbar, .navbar-default {
+  display: none !important;
+}
+
+.navbar-nav > li > a {
+  padding: 10px;
+}
+
+#portfolio-content img {
+  width: 65%;
+  border-radius: 5px;
+}
+
+#portfolio-content h3 {
+  margin-bottom: -15px;
+}
+
+#portfolio-content h3 > a {
+  color: #16a2f9;
+}
+
+#portfolio-title {
+  margin-bottom: 10px;
+}
+
+.portfolio-content-text {
+  width: 65%;
+  display: block;
+  margin: 0 auto;
+}
+
+@media(max-width : 768px) {
+  .navbar, .navbar-default {
+    display: block !important;
+  }
+
+  #portfolio-title {
+    margin-top: 15px;
+  }
+
+  .hidden-mobile {
+    display: none !important;
+  }
+
+  img {
+    width: 100% !important;
+  }
+
+  .portfolio-content-text {
+    width: 100%;
+  }
+}

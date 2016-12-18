@@ -1,0 +1,15 @@
+{{!< default}}
+
+
+<h1 id="portfolio-title">Projects</h1>
+<h5>A mix of fun and client work</h5>
+
+{{#get "posts" slug="portfolio-content"}}
+  {{#posts}}
+    <div id="portfolio-content">
+      <div id="portfolio-content-container">
+        {{content}}
+      </div>
+    </div>
+  {{/posts}}
+{{/get}}
