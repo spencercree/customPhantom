@@ -1,0 +1,10 @@
+{{!< default}}
+
+<h1 id="portfolio-title">At the Moment</h1>
+<h5>What I'm currently getting into</h5>
+
+{{#get "posts" slug="now-content"}}
+  {{#posts}}
+    {{content}}
+  {{/posts}}
+{{/get}}

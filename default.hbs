@@ -34,7 +34,7 @@
 
 	{{> navbar}}
 
-	<a href="/" id="nowBar">Check out what I'm up to now!</a>
+	<a href="/now" id="nowBar">Check out what I'm up to now!</a>
 	
 	{{> sidebar }}
 
@@ -50,6 +50,14 @@
 	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="{{asset "/js/prism.js"}}"></script>
 	<script type="text/javascript" src="{{asset "/js/index.js"}}"></script>
+	<script>
+		var str = window.location;
+		var slug = str.toString().replace(/^(?:\/\/|[^\/]+)*\//, "")
+		console.log(slug);
+		if(slug == 'now/') {
+			$('#nowBar').hide();
+		}
+	</script>
 
 </body>
 </html>
