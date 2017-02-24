@@ -91,6 +91,11 @@
         "author": "Tom Stoppard",
         "quote": "The colours red, blue and green are real. The colour yellow is a mystical experience shared by everybody.",
         "dateAdded": "2017-02-24T20:37:47.640Z"
+      },
+      {
+        "author": "Steve Jobs",
+        "quote": "Life can be much broader once you discover one simple fact, and that is – everything around you that you call life, was made up by people that were no smarter than you. And you can change it, you can influence it, you can build your own things that other people can use. The minute that you understand that you can poke life and actually something will, you know if you push in, something will pop out the other side, that you can change it, you can mold it. That’s maybe the most important thing. It’s to shake off this erroneous notion that life is there and you’re just gonna live in it, versus embrace it, change it, improve it, make your mark upon it.",
+        "dateAdded": "2017-02-24T20:57:32.538Z"
       }
     ]
 
