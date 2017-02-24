@@ -1,3 +1,37 @@
+#quotesContainer .author {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  font-style: normal !important;
+  margin-top: 0;
+  line-height: 17px;
+}
+
+#quotesContainer .quoteText {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+#quotes-subtitle {
+  font-size: 19px;
+  line-height: 1.6;
+}
+
+a.sortButton {
+  color: #fff;
+  background-color: #AED581;
+  border-radius: 3px;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 14px;
+}
+
+a.sortButton:hover {
+  color: #fff;
+  background-color: #33691E;
+}
+
 @charset "UTF-8";
 @font-face {
   font-family: 'Open Sans';

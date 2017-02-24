@@ -83,6 +83,14 @@ a {
   margin: 0 auto;
 }
 
+//quote stuff
+#quotesContainer .author {
+  font-weight: 500;
+  font-size: 15px;
+  font-style: normal !important;
+  margin-top: 0;
+}
+
 @media(max-width : 768px) {
   .navbar, .navbar-default {
     display: block !important;
